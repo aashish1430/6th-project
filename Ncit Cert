@@ -110,6 +110,28 @@
     </tr>
     
     </table>
+	<table class="table table-bordered table-responsive">
+	
+    <tr>
+    	<td><label class="control-label">Title</label></td>
+        <td><input class="form-control" type="text" name="title" placeholder="Enter News Title" value="<?php echo $title; ?>" /></td>
+    </tr>
+    
+    <tr>
+    	<td><label class="control-label">Description</label></td>
+        <td><textarea class="form-control" name="description" value="<?php echo $description; ?>">
+        </textarea>
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="2"><button type="submit" name="btnsave" class="btn btn-default">
+        <span class="glyphicon glyphicon-save"></span> &nbsp; save
+        </button>
+        </td>
+    </tr>
+    
+    </table>
     
 </form>
 
